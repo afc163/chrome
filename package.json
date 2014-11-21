@@ -2,6 +2,10 @@
   "name": "chrome",
   "version": "0.0.2",
   "description": "Open chrome in shell",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:afc163/chrome.git"
+  },
   "main": "index.js",
   "bin": {
     "chrome": "index.js"
