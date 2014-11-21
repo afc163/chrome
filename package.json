@@ -1,0 +1,24 @@
+{
+  "name": "chrome",
+  "version": "0.0.2",
+  "description": "Open chrome in shell",
+  "main": "index.js",
+  "bin": {
+    "chrome": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "afc163 <afc163@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "exeq": "^1.0.0",
+    "plist": "^1.0.1"
+  },
+  "maintainers": [
+    {
+      "name": "afc163",
+      "email": "afc163@gmail.com"
+    }
+  ]
+}
