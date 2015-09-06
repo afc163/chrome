@@ -30,9 +30,16 @@ var chrome = {
         cb(true)
       })
     })
+  },
+  fixWhitespace: function(str) {
+    return /\s/g.test(str) ? '"' + str + '"' : str
   }
 }
 
 chrome.isExist(function() {
-  exeq([chrome.getCommand()])
+  exeq([chrome.getCommand()].concat(process.argv.slice(2)).map(chrome.fixWhitespace).join(' '))
+    .catch(function(err) {
+      console.error('Failed to open Google Chrome as intended', err)
+      process.exit(err.code || 13)
+    })
 })

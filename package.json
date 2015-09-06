@@ -16,8 +16,8 @@
   "author": "afc163 <afc163@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "exeq": "^1.0.0",
-    "plist": "^1.0.1"
+    "exeq": "^2.2.0",
+    "plist": "^1.1.0"
   },
   "maintainers": [
     {
