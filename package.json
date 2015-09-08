@@ -1,6 +1,6 @@
 {
   "name": "chrome",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Open chrome in shell",
   "repository": {
     "type": "git",
